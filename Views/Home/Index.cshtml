@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+<style>
+
+    h1 {
+        font-size: 75px;
+        text-transform: uppercase;
+        animation-duration: 3s;
+        animation-name: titleAnimation;
+    }
+
+    input[type=text] {
+        color: #161818;
+        font-size: 18px;
+        width: 250px;
+        height: 35px;
+    }
+
+    input[type=submit] {
+        color: azure;
+        font-size: 18px;
+        padding: 5px 15px;
+        background: #8e2800;
+        border: 1px;
+        cursor: pointer;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+        input[type=submit]:hover {
+            font-size: 19px;
+        }
+
+    @@keyframes titleAnimation {
+        0% {
+            width: 0;
+        }
+
+        100% {
+            width: 100%;
+        }
+    }
+</style>
+
+<div class="text-center">
+    <br />
+    <img src="Images/logo.png"/>
+    <form method="post" action="/Home/RootsList">
+        <input type="text" name="dest" />
+        <input type="submit" value="TRAVEL" />
+    </form>
+</div>

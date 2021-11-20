@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "EmptyField";
+}
+<style>
+    input[type=submit] {
+        color: azure;
+        font-size: 18px;
+        padding: 5px 15px;
+        background: #8e2800;
+        border: 1px;
+        cursor: pointer;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+        input[type=submit]:hover {
+            font-size: 19px;
+        }
+</style>
+<br />
+<h1 class="title">
+    <span>Please!</span>
+</h1>
+<h2 class="title">
+    <span>Dont leave the field empty</span>
+</h2>
+    <form method="post" action="/Home/Index">
+        <input type="submit" value="BACK" />
+    </form>
