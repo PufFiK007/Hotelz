@@ -10,6 +10,7 @@ namespace Hotelz.Models
     {
         [Key]
         public int Id { get; set; }
+
         public string Location { get; set; }
         public string Hotel { get; set; }
         public double Term { get; set; }

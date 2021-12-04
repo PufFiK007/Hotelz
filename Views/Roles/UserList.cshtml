@@ -1,12 +1,19 @@
-﻿<h2>Список пользователей</h2>
+﻿<h2>User list:</h2>
 <table class="table">
     @foreach (var user in Model)
     {
         <tr>
             <td>@user.Email</td>
             <td>
-                <a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-userid="@user.Id">Права доступа</a>
+                <a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-userid="@user.Id">Role</a>
             </td>
         </tr>
     }
 </table>
+
+<a asp-action="Create">Add role</a>
+<a asp-action="UserList">All roles</a>
+<br />
+
+<a asp-controller="Home" asp-action="AddAccomodation">Add Accomodation</a>
+<a asp-controller="Home" asp-action="AddTickets">Add Tickets</a>

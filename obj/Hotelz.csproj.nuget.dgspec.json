@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\A\\Programming\\Hotelz\\Hotelz.csproj": {}
+    "D:\\A\\Programming\\qwe\\Hotelz\\Hotelz.csproj": {}
   },
   "projects": {
-    "D:\\A\\Programming\\Hotelz\\Hotelz.csproj": {
+    "D:\\A\\Programming\\qwe\\Hotelz\\Hotelz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\A\\Programming\\Hotelz\\Hotelz.csproj",
+        "projectUniqueName": "D:\\A\\Programming\\qwe\\Hotelz\\Hotelz.csproj",
         "projectName": "Hotelz",
-        "projectPath": "D:\\A\\Programming\\Hotelz\\Hotelz.csproj",
+        "projectPath": "D:\\A\\Programming\\qwe\\Hotelz\\Hotelz.csproj",
         "packagesPath": "C:\\Users\\plast\\.nuget\\packages\\",
-        "outputPath": "D:\\A\\Programming\\Hotelz\\obj\\",
+        "outputPath": "D:\\A\\Programming\\qwe\\Hotelz\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\plast\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,19 +50,25 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[5.0.12, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[5.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[5.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
